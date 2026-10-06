@@ -59,3 +59,10 @@ yarn-error.log*
 # IDE
 .vscode/*
 .idea/ 
+
+# Personal portfolio assets
+public/Sakshi-Shukla-Resume.pdf
+public/projects/airlines-dashboard.svg
+public/sakshi-hero.jpg
+public/sakshi-portrait.jpg
+public/Sakshi-Shukla-DE.pdf
