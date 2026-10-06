@@ -1,38 +1,127 @@
-# Sakshi Shukla — Portfolio
+# Sakshi Shukla — Data Engineer Portfolio
 
-Personal site for Sakshi Shukla, Data Engineer at Tata Consultancy Services (since June 2024).
+<p align="center">
+  <a href="https://sakshi-shukla-porfolio.vercel.app/" target="_blank">
+    <strong> View Live Portfolio</strong>
+  </a>
+</p>
 
-Built with React, Vite, Tailwind CSS, and Framer Motion.
+<p align="center">
+  A modern and responsive personal portfolio showcasing my experience, technical skills,
+  data engineering projects, and professional journey.
+</p>
 
-## Run locally
+---
 
-```bash
-npm install
-npm run dev
-```
+## About Me
 
-Open the URL shown in the terminal (usually http://localhost:3000).
+Hi, I'm **Sakshi Shukla**, a Data Engineer with **2+ years of experience at TCS**, working on data pipelines, data validation, data modeling, ETL/ELT workflows, and cloud-based data platforms.
 
-## Edit content
+My work focuses on building reliable and scalable data solutions that transform raw data into clean, structured, and analytics-ready datasets.
 
-- Profile, experience, skills, and links: `src/data/profile.js`
-- Project cards: `src/data/projects.js`
+This portfolio highlights my:
 
-## Deploy on Vercel
+-  Professional experience
+-  Technical skills
+-  Data engineering projects
+-  Cloud technologies
+-  Data modeling and warehousing knowledge
+-  Professional profiles
+-  Resume
 
-1. Create a GitHub repository and push this project:
+---
 
-```bash
-git init
-git add .
-git commit -m "Add Sakshi Shukla portfolio"
-git branch -M main
-git remote add origin https://github.com/<your-username>/<repo-name>.git
-git push -u origin main
-```
+##  Live Portfolio
 
-2. Go to [vercel.com](https://vercel.com), import that GitHub repo.
-3. Framework: Vite. Build command: `npm run build`. Output: `dist`.
-4. Deploy. Future pushes to `main` will update the live site.
+**Portfolio:**  
+https://sakshi-shukla-porfolio.vercel.app/
 
-After you have a live URL, replace the placeholder Open Graph URL in `index.html` if you want richer social previews.
+---
+
+##  Features
+
+-  Fully responsive design
+-  Modern and clean user interface
+-  Light/Dark theme
+-  Fast Vite-powered application
+-  Smooth animations and transitions
+-  Responsive navigation
+-  Professional experience section
+-  Technical skills section
+-  Projects showcase
+-  Social and professional links
+-  Resume section
+-  SEO and Open Graph metadata
+-  Vercel deployment
+
+---
+
+##  Tech Stack
+
+### Frontend
+
+- React.js
+- JavaScript
+- HTML5
+- CSS3
+
+### Styling
+
+- Tailwind CSS
+- PostCSS
+
+### UI & Animation
+
+- Framer Motion
+- React Icons
+- React Swipeable
+- React Type Animation
+- Typewriter Effect
+
+### 3D & Visuals
+
+- Three.js
+
+### Build & Development
+
+- Vite
+- ESLint
+- Git
+- GitHub
+
+### Deployment
+
+- Vercel
+
+---
+
+## Project Structure
+
+```text
+Sakshi-Shukla-Portfolio/
+│
+├── public/
+│   └── Public assets
+│
+├── src/
+│   ├── components/
+│   ├── context/
+│   ├── data/
+│   │   ├── profile.js
+│   │   └── projects.js
+│   ├── pages/
+│   ├── styles/
+│   ├── utils/
+│   ├── App.jsx
+│   ├── index.css
+│   └── main.jsx
+│
+├── index.html
+├── package.json
+├── package-lock.json
+├── postcss.config.js
+├── tailwind.config.js
+├── vercel.json
+├── vite.config.js
+├── .gitignore
+└── README.md
