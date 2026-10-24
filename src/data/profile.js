@@ -8,13 +8,13 @@ const profile = {
   location: 'India',
   company: 'Tata Consultancy Services',
   heroDescription:
-    'Data engineer building reliable pipelines and analytics-ready tables. At Tata Consultancy Services since June 2024, working across AWS, Azure, PySpark, and SQL.',
+    'Data engineer designing a scalable, fault-tolerant unified ingestion framework for real-time streaming and scheduled bulk loads. At Tata Consultancy Services since June 2024, working across AWS, PySpark, and SQL.',
   footerBlurb:
-    'Data Engineer based in India. At Tata Consultancy Services since June 2024. Building pipelines, data-quality checks, and analytics-ready tables.',
+    'Data Engineer based in India. At Tata Consultancy Services since June 2024. Designing unified ingestion frameworks, Medallion pipelines, and star-schema models for near real-time analytics.',
   about: {
     paragraphs: [
-      "I'm Sakshi Shukla, a Data Engineer at Tata Consultancy Services. I build and maintain pipelines that collect, transform, and deliver information so teams can work with reliable, analytics-ready tables. I like problems that need careful checks, clean models, and systems that keep producing the same result when they run again.",
-      'Since June 2024 I have tested ETL and ELT pipelines, reconciled records across Bronze, Silver, and Gold layers, and checked databases for integrity and idempotent processing. Day to day I work in Python, SQL, PySpark, AWS, and Azure.'
+      "I'm Sakshi Shukla, a Data Engineer at Tata Consultancy Services. I design scalable, fault-tolerant ingestion frameworks that handle both real-time streaming and scheduled bulk loads from disparate enterprise sources, then shape that data into models teams can trust for reporting.",
+      'Since June 2024 I have built distributed PySpark pipelines on AWS S3 through the Medallion Architecture, designed star-schema dimensional models, and helped compress reporting latency from 3-4 days to near real-time. Day to day I work in Python, SQL, PySpark, and AWS.'
     ],
     education: [
       {
@@ -36,12 +36,11 @@ const profile = {
       location: 'India',
       category: 'Work',
       summary:
-        'Data Engineer at TCS, validating pipelines, checking data quality, and reconciling medallion layers from ingestion through analytics-ready tables.',
+        'Working as a data engineer to design a scalable, fault-tolerant unified data ingestion framework capable of handling both real-time streaming and scheduled bulk loads from 5+ disparate enterprise sources.',
       achievements: [
-        'Validate ETL and ELT pipelines and run SQL and quality checks before data is treated as ready for analytics',
-        'Reconcile records across Bronze, Silver, and Gold layers so downstream tables stay consistent with source data',
-        'Test databases with a focus on integrity and idempotent processing',
-        'Work across AWS and Azure with Python, SQL, and PySpark'
+        'Assisted in compressing reporting latency from 3-4 days to near real-time, empowering executive and operational teams with up-to-the-minute dashboards and cutting data staleness by over 95%.',
+        'Designed distributed data pipelines leveraging PySpark and AWS S3 to ingest, cleanse, and standardize data through the Medallion Architecture, significantly improving data reliability and query performance for downstream analytics.',
+        'Designed dimensional data models using a star schema to enable efficient downstream reporting and business analytics.'
       ]
     }
   ],

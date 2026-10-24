@@ -17,7 +17,7 @@ const Skills = () => (
       eyebrow="Capabilities"
       title="Data engineering"
       accent="skills"
-      description="Core stack I use to validate pipelines, shape reliable tables, and move data from ingestion to analytics."
+      description="Core stack I use to design unified ingestion frameworks, Medallion pipelines, and star-schema models for analytics."
     />
 
     <div className="mt-10 surface-card p-6 sm:p-8">
